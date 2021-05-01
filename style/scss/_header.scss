@@ -1,0 +1,25 @@
+
+header {
+    h3 {
+        padding: 5px 15px;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul {
+        display: flex;
+        list-style-type: none;
+        
+        li {
+            padding: 0 15px;
+        }
+    }
+    a {
+        color: set-text-color($primary-color);
+    }
+    a:hover {
+        color: $light-color-hover;
+    }
+}
