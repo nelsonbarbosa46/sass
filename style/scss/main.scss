@@ -1,7 +1,4 @@
 @import "./config";
-@import "./firstsection";
-@import "./buttons";
-@import "./header";
 
 * {
     box-sizing: border-box;
@@ -30,3 +27,7 @@ a {
     text-decoration: none;
 }
 
+@import "./firstsection";
+@import "./buttons";
+@import "./header";
+@import './mobile';
